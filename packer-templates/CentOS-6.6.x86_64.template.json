@@ -3,11 +3,7 @@
     {
       "type": "shell",
       "scripts": [
-        "scripts/CentOS-6.6.x86_64/setup.sh",
-        "scripts/CentOS-6.6.x86_64/virtualbox.sh",
-        "scripts/CentOS-6.6.x86_64/vagrant.sh",
-        "scripts/CentOS-6.6.x86_64/cleanup.sh",
-        "scripts/CentOS-6.6.x86_64/zerodisk.sh"
+        "scripts/CentOS-6.6.x86_64/setup.sh"
       ],
       "override": {
         "CentOS-6.6.x86_64": {
