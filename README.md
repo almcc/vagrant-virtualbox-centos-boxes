@@ -21,12 +21,12 @@ Yum repos are defined in http/<centos>.kickstart.cfgvagrant
 Instructions
 ------------
 
-`cd assets`
-`./get.sh`
-`cd ../`
-`make all`
+- `cd assets`
+- `./get.sh`
+- `cd ../`
+- `make all`
 
 To test
 
-`cd vagrant`
-`vagrant up`
+- `cd vagrant`
+- `vagrant up`
