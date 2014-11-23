@@ -2,6 +2,7 @@
   "provisioners": [
     {
       "type": "shell",
+      "environment_vars" : ["HTTP_IP={{ .HTTPIP }}", "HTTP_PORT={{ .HTTPPort }}"],
       "scripts": [
         "scripts/CentOS-5.11.x86_64/setup.sh"
       ],

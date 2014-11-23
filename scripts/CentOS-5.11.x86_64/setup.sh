@@ -8,7 +8,7 @@ date > /etc/vagrant_box_build_time
 
 # Installing vagrant keys
 mkdir -pm 700 /home/vagrant/.ssh
-wget --no-check-certificate 'http://10.0.2.2:8081/vagrant.pub' -O /home/vagrant/.ssh/authorized_keys
+wget --no-check-certificate http://`echo $HTTP_IP`:`echo $HTTP_PORT`/vagrant.pub -O /home/vagrant/.ssh/authorized_keys
 chmod 0600 /home/vagrant/.ssh/authorized_keys
 chown -R vagrant /home/vagrant/.ssh
 
