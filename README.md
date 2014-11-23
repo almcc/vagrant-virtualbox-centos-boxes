@@ -11,12 +11,12 @@ Tools Required
 DNS Settings
 ------------
 
-DNS is set in script/<centos>/setup.sh
+DNS is set in script/[centos]/setup.sh
 
 Yum Repos
 ---------
 
-Yum repos are defined in http/<centos>.kickstart.cfgvagrant
+Yum repos are defined in http/[centos].kickstart.cfgvagrant
 
 Instructions
 ------------
